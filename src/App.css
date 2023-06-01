@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F5F7FB;
+}
+.start--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    
+}
+.start--title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 37px;
+    color: #293264;
+}
+.start--description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #293264;
+    text-align: center;
+    margin: 0;
+    width: 300px;
+}
+.blob-purple {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.blob-yellow {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.btn {
+    width: 193px;
+    height: 52px;
+    left: 179px;
+    top: 314px;
+    background: #4D5B9E;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.questions--title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #293264;
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 60%;
+
+}
+.answers--container {
+    /* width: 60%; */
+    text-align: center;
+    margin-top: 1em;
+    /* border: 1px solid red; */
+    display: flex; 
+    justify-content: center;
+
+}
+.answer-label{
+    margin: 0px 13px 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: inline-block;
+  }
+.answer-btn {
+    display: none;
+}
+.answers {
+      
+    height: 21px;
+    padding: 10px;
+    border: 0.794239px solid #4D5B9E;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 10.24px;
+    font-family: 'Karla';
+    color: #293264;
+    font-weight: bold;
+    line-height: 50%;
+}
+hr {
+    margin-top: 25px;
+    width: 100%;
+}
+.new-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 50px;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 100vh;
+}
+.selected {
+    background-color: #D6DBF5;
+    border: none;
+}
+.correct {
+    background-color: green;
+}
+.incorrect {
+    background-color: red;
+}
+.results {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 0;
+    color: #4D5B9E;
+    margin-right: 50px;
+    align-self: flex-end;
+}
+.idk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,1 @@
+Projeto solo criado como parte do curso online scrimba.com! Consiste em criar um App React que simula um Quiz. Usando a API opentriviadb.com!
